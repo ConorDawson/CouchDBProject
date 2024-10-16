@@ -1,0 +1,5 @@
+build:
+  command: |
+    npm install -g ionic
+    ionic build --prod
+  publish: dist
