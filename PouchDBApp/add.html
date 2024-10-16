@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="addApp">
+        <h1>Add New Document</h1>
+        <input type="text" id="docId" placeholder="Document ID">
+        <input type="number" id="docIndex" placeholder="Index">
+        <input type="text" id="docBookName" placeholder="Book Name">
+        <input type="text" id="docAuthor" placeholder="Author">
+        <input type="number" step="0.01" id="docRating" placeholder="Rating">
+        <input type="number" id="docNumberOfVotes" placeholder="Number of Votes">
+        <input type="number" id="docScore" placeholder="Score">
+        <button id="submitDoc">Submit</button>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/pouchdb/7.2.2/pouchdb.min.js"></script>
+    <script src="add.js"></script>
+</body>
+</html>
